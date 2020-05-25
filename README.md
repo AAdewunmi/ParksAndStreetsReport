@@ -1,4 +1,4 @@
-# Coding challenge - ES6
+# Coding challenge - Parks-And-Streets-Report App (ES6)
 
 Suppose that you're working in a small town administration, and you're in charge of two town elements:
 1. Parks

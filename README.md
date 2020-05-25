@@ -20,4 +20,4 @@ All the report data should be printed to the console.
 
 ## Screenshot
 
-# Starter Code Forked From Jonas Schmedtmann (https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/7-ES6)
+Starter Code Forked From Jonas Schmedtmann (https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/7-ES6)

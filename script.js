@@ -36,3 +36,13 @@ class Street extends Town {
       console.log(`${this.name}, built in ${this.buildYear}, is a ${classification.get(this.size)} street.`);
     }
 }
+//Park's data model
+const allParks = [
+  new Park('Oakwood Park', 1987, 0.2, 215),
+  new Park('Greenfield Park', 1894, 2.9, 3541),
+  new Park('Hamilton Park', 1958, 0.4, 949)];
+//Street's data model
+const allStreets = [
+  new Street('Birkbeck Street', 1999, 1.1, 4),
+  new Street('Gloucester Drive', 1999, 1.1, 4),
+  new Street('Hillbank Close', 1999, 1.1, 4)];

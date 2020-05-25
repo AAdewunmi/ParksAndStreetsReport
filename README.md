@@ -19,6 +19,7 @@ All the report data should be printed to the console.
 * JavaScript - ES6
 
 ## Screenshot
-Screenshot.png
+![Image description](Screenshot.png)
+
 
 Starter Code Forked From Jonas Schmedtmann (https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/7-ES6)

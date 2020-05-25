@@ -46,3 +46,26 @@ const allStreets = [
   new Street('Birkbeck Street', 1999, 1.1, 4),
   new Street('Gloucester Drive', 1999, 1.1, 4),
   new Street('Hillbank Close', 1999, 1.1, 4)];
+//Functions
+//calc function
+function calc(arr){
+  const sum = arr.reduce((prev, cur, index) => prev + cur, 0);
+  return [sum, sum / arr.length];
+}
+//reportParks function
+function reportParks(p){
+  console.log('------- PARKS REPORT --------');
+  p.forEach(el => el.treeDensity());
+  const ages = p.map(el => new Date().getFullYear() - el.buildYear);
+  const[totalAge, avgAge] = calc(ages);
+  console.log(`Our ${p.length} parks have an average of ${avgAge} years.`);
+  const i = p.map(el => el.numTrees).findIndex(el => el >= 1000);
+  console.log(`${p[i].name} has more than 1000 trees`);
+}
+//reportStreets function
+function reportStreets(s){
+  console.log('------- STREETS REPORT --------');
+
+}
+reportParks(allParks);
+reportStreets(allStreets);
